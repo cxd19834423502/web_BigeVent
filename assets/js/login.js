@@ -68,7 +68,7 @@ $(function() {
                     // 保存token，未来的接口使用token
                 localStorage.setItem('token', res.token)
                     // 跳转
-                local.href = "/index.html"
+                location.href = "/index.html"
             }
         })
     })
